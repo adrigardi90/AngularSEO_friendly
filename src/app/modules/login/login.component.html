@@ -1,0 +1,50 @@
+
+<div class="d-flex align-items-center full_height">
+  <div class="container">
+
+    <div class="justify-content-md-center">
+      <h1 class="text-center">LOGIN</h1>
+    </div>
+
+    <div class="justify-content-md-center">
+
+      <form>
+
+        <div class="form-group">
+          <div class="col-sm-4 center">
+            <label>Username</label>
+            <input type="text"
+                   class="form-control"
+                   placeholder="Username"
+                   [(ngModel)]="user"
+                   name="user">
+
+          </div>
+        </div>
+
+        <div class="form-group ">
+          <div class="col-sm-4 center">
+            <label>Password</label>
+            <input type="password"
+                   class="form-control"
+                   [(ngModel)]="password"
+                   placeholder="Password"
+                   name="password">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-4 col-4 center">
+            <button type="button"
+                    class="btn btn-primary"
+                   (click)="submit()">Submit</button>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+</div>
+
